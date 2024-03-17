@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ojuju:wght@200..800&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variables.css";
+
+body{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+
+.welcome-header{
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.welcome-header__title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.welcome-header__text{
+    width:65%;
+    opacity: 0.6;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin:0px 30px;
+}
+
+#login-form input{
+    border:none;
+    padding:15px 0px;
+    font-size:18px;
+    margin-bottom: 25px;
+}
+
+
+
+#login-form input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transition:border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder{
+    color:rgba(0,0,0,0.4);
+}
+
+#login-form input:focus{
+    border-color: var(--peach);
+}
+
+#login-form input[type="submit"]{
+    background-color: var(--peach);
+    cursor: pointer;
+    color:white;
+    padding:20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
