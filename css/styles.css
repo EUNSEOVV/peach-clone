@@ -5,7 +5,7 @@
 
 body{
     font-family: "Montserrat Alternates", sans-serif;
-    background-color: #fff5f9;
+    background-color: var(--peach-background);
 }
 
 
@@ -70,4 +70,12 @@ body{
     text-decoration: none;
     color: inherit;
     font-size: 13px;
+}
+
+#login-form input[type="email"] {
+    background-color: var(--peach-background);
+}
+
+#login-form input[type="password"] {
+    background-color: var(--peach-background);
 }
