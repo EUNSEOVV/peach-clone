@@ -3,7 +3,7 @@
     bottom:0;
     width:100%;
     background-color: var(--peach);
-    padding: 20px 50px;
+    padding: 20px 45px;
     box-sizing:border-box;
     border-top: 1px solid rgba(255, 255, 255);
 }
@@ -15,4 +15,31 @@
 
 .nav__link{
     color:rgba(255, 255, 255);
+    position: relative;
+}
+
+
+.nav__notification{
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight:600;
+    position:absolute;
+    right:-10px;
+    bottom:18px;
+}
+
+.nav__dot{
+    background-color: tomato;
+    width:8px;
+    height:8px;
+    border-radius: 4px;
+    position:absolute;
+    right:-10px;
+    bottom:25px;
 }
