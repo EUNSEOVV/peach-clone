@@ -4,6 +4,7 @@
 }
 
 
+
 .user-component,
 .user-component :first-child{
     display: flex;
@@ -45,27 +46,18 @@
     font-weight: 500;
 }
 
-.friends-screen__channel{
-    margin-top: 25px;
-    border-top: 1px solid rgba(0,0,0,0.2);
-    padding: 15px;
-}
 
-.friends-screen__channel-header{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: rgba(0,0,0,0.5);
-}
-
-
-.user-component__column span{
-    padding-right: 8px;
-}
 
 .user-component :last-child{
-    display: flex;
-    align-items: center;
     color: rgba(0,0,0,0.5);
+}
+
+.user-component{
+    margin-top: 20px;
+}
+
+
+.user-component__text h4{
+    margin-bottom:10px;
+
 }
