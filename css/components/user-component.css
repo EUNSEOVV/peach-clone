@@ -11,7 +11,10 @@
     align-items: center;
 }
 
-
+.user-component__column{
+    display: flex;
+    align-items: center;
+}
 
 .user-component__avatar{
     width:70px;
@@ -36,6 +39,7 @@
     height:80px;
 }
 
+
 .user-component__avatar--sm{
     width:60px;
     height:60px;
@@ -57,7 +61,7 @@
 }
 
 
-.user-component__text h4{
-    margin-bottom:10px;
+.user-component__text h6{
+    margin-top:10px;
 
 }
