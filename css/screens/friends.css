@@ -25,3 +25,8 @@
     align-items: center;
     color: rgba(0,0,0,0.5);
 }
+
+
+.user-component__friends{
+    padding-top: 20px;
+}
