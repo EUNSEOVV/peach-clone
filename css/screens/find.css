@@ -1,0 +1,35 @@
+.find-icons{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.find-icons2{
+    display:flex;
+    justify-content: center;
+    border-bottom: var(--main-border);
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+
+
+
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+}
+
+.find-icons__icon i{
+    font-size: 35px;
+    opacity: 0.5;
+}
+
+.find-icons__icon span{
+    margin-top: 15px;
+    opacity: 0.5;
+}

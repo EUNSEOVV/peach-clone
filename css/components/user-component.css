@@ -28,7 +28,7 @@
 }
 
 .user-component__title{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 22px;
 }
 
@@ -80,3 +80,5 @@
     display: block;
     margin-bottom: 10px;
 }
+
+
