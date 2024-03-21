@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.user-component__column i{
+    opacity: 0.7;
+}
+
 .user-component__chevron{
     color: rgba(0,0,0,0.4);
 }
@@ -81,4 +85,7 @@
     margin-bottom: 10px;
 }
 
-
+.user-component__phonenumber span{
+    color: tomato;
+    margin-left: 5px;
+}
