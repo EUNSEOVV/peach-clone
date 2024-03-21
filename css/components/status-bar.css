@@ -8,6 +8,7 @@
     padding: 7px 3px;
     position:sticky;
     box-sizing: border-box;
+
 }
 
 .status-bar__column{
@@ -34,3 +35,4 @@
 .status-bar__column .fa-battery-three-quarters{
     margin: 0px 5px;
 }
+
