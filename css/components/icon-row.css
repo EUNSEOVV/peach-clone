@@ -1,6 +1,7 @@
 .icon-row{
     display:flex;
     justify-content: center;
+    opacity: 0.7;
 }
 
 
