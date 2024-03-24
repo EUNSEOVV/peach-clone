@@ -1,3 +1,7 @@
+.more-body{
+    height:110vh;
+}
+
 .more-screen .icon-row{
     margin-top:35px;
     opacity: 0.7;
@@ -15,6 +19,7 @@
 
 .more-suggestions__icons{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .more-suggestions__icon{
