@@ -206,12 +206,12 @@
 }
 
 .message__desktop2{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     opacity: 0.6;
 }
 
 .message__desktop3{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-color:var(--peach);
     color: white;
     padding: 10px 50px;
